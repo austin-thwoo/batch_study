@@ -32,3 +32,5 @@ spring:
       username: root
       password: Laonpp00..L
       driver-class-name: org.mariadb.jdbc.Driver
+
+spring.batch.job.names: ${job.name:NONE}
