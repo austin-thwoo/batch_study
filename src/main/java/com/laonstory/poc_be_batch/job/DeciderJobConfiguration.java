@@ -31,7 +31,7 @@ public class DeciderJobConfiguration {
                 .next(decider()) // 홀수 | 짝수 구분
                 .from(decider()) // decider의 상태가
                 .on("ODD") // ODD라면
-                .to(oddStep()) // oddStep로 간다.
+                .to(oddStep()) // oddStep로 간다.///
                 .from(decider()) // decider의 상태가
                 .on("EVEN") // ODD라면
                 .to(evenStep()) // evenStep로 간다.
